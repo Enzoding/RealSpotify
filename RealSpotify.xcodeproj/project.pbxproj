@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		953610422C7083220095B3E8 /* RealSpotifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953610412C7083220095B3E8 /* RealSpotifyApp.swift */; };
+		953610442C7083220095B3E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953610432C7083220095B3E8 /* ContentView.swift */; };
+		953610462C7083230095B3E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953610452C7083230095B3E8 /* Assets.xcassets */; };
+		953610492C7083230095B3E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953610482C7083230095B3E8 /* Preview Assets.xcassets */; };
+		9536104B2C7083230095B3E8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9536104A2C7083230095B3E8 /* Persistence.swift */; };
+		9536104E2C7083230095B3E8 /* RealSpotify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9536104C2C7083230095B3E8 /* RealSpotify.xcdatamodeld */; };
+		953610582C7083230095B3E8 /* RealSpotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953610572C7083230095B3E8 /* RealSpotifyTests.swift */; };
+		953610622C7083230095B3E8 /* RealSpotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953610612C7083230095B3E8 /* RealSpotifyUITests.swift */; };
+		953610642C7083230095B3E8 /* RealSpotifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953610632C7083230095B3E8 /* RealSpotifyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		953610542C7083230095B3E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953610362C7083220095B3E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9536103D2C7083220095B3E8;
+			remoteInfo = RealSpotify;
+		};
+		9536105E2C7083230095B3E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953610362C7083220095B3E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9536103D2C7083220095B3E8;
+			remoteInfo = RealSpotify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9536103E2C7083220095B3E8 /* RealSpotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealSpotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		953610412C7083220095B3E8 /* RealSpotifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealSpotifyApp.swift; sourceTree = "<group>"; };
+		953610432C7083220095B3E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		953610452C7083230095B3E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		953610482C7083230095B3E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9536104A2C7083230095B3E8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		9536104D2C7083230095B3E8 /* RealSpotify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RealSpotify.xcdatamodel; sourceTree = "<group>"; };
+		953610532C7083230095B3E8 /* RealSpotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealSpotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		953610572C7083230095B3E8 /* RealSpotifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealSpotifyTests.swift; sourceTree = "<group>"; };
+		9536105D2C7083230095B3E8 /* RealSpotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealSpotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		953610612C7083230095B3E8 /* RealSpotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealSpotifyUITests.swift; sourceTree = "<group>"; };
+		953610632C7083230095B3E8 /* RealSpotifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealSpotifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9536103B2C7083220095B3E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953610502C7083230095B3E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9536105A2C7083230095B3E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		953610352C7083220095B3E8 = {
+			isa = PBXGroup;
+			children = (
+				953610402C7083220095B3E8 /* RealSpotify */,
+				953610562C7083230095B3E8 /* RealSpotifyTests */,
+				953610602C7083230095B3E8 /* RealSpotifyUITests */,
+				9536103F2C7083220095B3E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9536103F2C7083220095B3E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9536103E2C7083220095B3E8 /* RealSpotify.app */,
+				953610532C7083230095B3E8 /* RealSpotifyTests.xctest */,
+				9536105D2C7083230095B3E8 /* RealSpotifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		953610402C7083220095B3E8 /* RealSpotify */ = {
+			isa = PBXGroup;
+			children = (
+				953610412C7083220095B3E8 /* RealSpotifyApp.swift */,
+				953610432C7083220095B3E8 /* ContentView.swift */,
+				953610452C7083230095B3E8 /* Assets.xcassets */,
+				9536104A2C7083230095B3E8 /* Persistence.swift */,
+				9536104C2C7083230095B3E8 /* RealSpotify.xcdatamodeld */,
+				953610472C7083230095B3E8 /* Preview Content */,
+			);
+			path = RealSpotify;
+			sourceTree = "<group>";
+		};
+		953610472C7083230095B3E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				953610482C7083230095B3E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		953610562C7083230095B3E8 /* RealSpotifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				953610572C7083230095B3E8 /* RealSpotifyTests.swift */,
+			);
+			path = RealSpotifyTests;
+			sourceTree = "<group>";
+		};
+		953610602C7083230095B3E8 /* RealSpotifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				953610612C7083230095B3E8 /* RealSpotifyUITests.swift */,
+				953610632C7083230095B3E8 /* RealSpotifyUITestsLaunchTests.swift */,
+			);
+			path = RealSpotifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9536103D2C7083220095B3E8 /* RealSpotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953610672C7083230095B3E8 /* Build configuration list for PBXNativeTarget "RealSpotify" */;
+			buildPhases = (
+				9536103A2C7083220095B3E8 /* Sources */,
+				9536103B2C7083220095B3E8 /* Frameworks */,
+				9536103C2C7083220095B3E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealSpotify;
+			productName = RealSpotify;
+			productReference = 9536103E2C7083220095B3E8 /* RealSpotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		953610522C7083230095B3E8 /* RealSpotifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9536106A2C7083230095B3E8 /* Build configuration list for PBXNativeTarget "RealSpotifyTests" */;
+			buildPhases = (
+				9536104F2C7083230095B3E8 /* Sources */,
+				953610502C7083230095B3E8 /* Frameworks */,
+				953610512C7083230095B3E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953610552C7083230095B3E8 /* PBXTargetDependency */,
+			);
+			name = RealSpotifyTests;
+			productName = RealSpotifyTests;
+			productReference = 953610532C7083230095B3E8 /* RealSpotifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9536105C2C7083230095B3E8 /* RealSpotifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9536106D2C7083230095B3E8 /* Build configuration list for PBXNativeTarget "RealSpotifyUITests" */;
+			buildPhases = (
+				953610592C7083230095B3E8 /* Sources */,
+				9536105A2C7083230095B3E8 /* Frameworks */,
+				9536105B2C7083230095B3E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9536105F2C7083230095B3E8 /* PBXTargetDependency */,
+			);
+			name = RealSpotifyUITests;
+			productName = RealSpotifyUITests;
+			productReference = 9536105D2C7083230095B3E8 /* RealSpotifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		953610362C7083220095B3E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9536103D2C7083220095B3E8 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					953610522C7083230095B3E8 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 9536103D2C7083220095B3E8;
+					};
+					9536105C2C7083230095B3E8 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 9536103D2C7083220095B3E8;
+					};
+				};
+			};
+			buildConfigurationList = 953610392C7083220095B3E8 /* Build configuration list for PBXProject "RealSpotify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 953610352C7083220095B3E8;
+			productRefGroup = 9536103F2C7083220095B3E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9536103D2C7083220095B3E8 /* RealSpotify */,
+				953610522C7083230095B3E8 /* RealSpotifyTests */,
+				9536105C2C7083230095B3E8 /* RealSpotifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9536103C2C7083220095B3E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953610492C7083230095B3E8 /* Preview Assets.xcassets in Resources */,
+				953610462C7083230095B3E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953610512C7083230095B3E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9536105B2C7083230095B3E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9536103A2C7083220095B3E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9536104B2C7083230095B3E8 /* Persistence.swift in Sources */,
+				953610442C7083220095B3E8 /* ContentView.swift in Sources */,
+				9536104E2C7083230095B3E8 /* RealSpotify.xcdatamodeld in Sources */,
+				953610422C7083220095B3E8 /* RealSpotifyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9536104F2C7083230095B3E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953610582C7083230095B3E8 /* RealSpotifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953610592C7083230095B3E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953610622C7083230095B3E8 /* RealSpotifyUITests.swift in Sources */,
+				953610642C7083230095B3E8 /* RealSpotifyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		953610552C7083230095B3E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9536103D2C7083220095B3E8 /* RealSpotify */;
+			targetProxy = 953610542C7083230095B3E8 /* PBXContainerItemProxy */;
+		};
+		9536105F2C7083230095B3E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9536103D2C7083220095B3E8 /* RealSpotify */;
+			targetProxy = 9536105E2C7083230095B3E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		953610652C7083230095B3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		953610662C7083230095B3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		953610682C7083230095B3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealSpotify/Preview Content\"";
+				DEVELOPMENT_TEAM = JWA37NF83H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.peaceding.RealSpotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		953610692C7083230095B3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealSpotify/Preview Content\"";
+				DEVELOPMENT_TEAM = JWA37NF83H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.peaceding.RealSpotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9536106B2C7083230095B3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JWA37NF83H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.peaceding.RealSpotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealSpotify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RealSpotify";
+			};
+			name = Debug;
+		};
+		9536106C2C7083230095B3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JWA37NF83H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.peaceding.RealSpotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealSpotify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RealSpotify";
+			};
+			name = Release;
+		};
+		9536106E2C7083230095B3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JWA37NF83H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.peaceding.RealSpotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealSpotify;
+			};
+			name = Debug;
+		};
+		9536106F2C7083230095B3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JWA37NF83H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = top.peaceding.RealSpotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealSpotify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		953610392C7083220095B3E8 /* Build configuration list for PBXProject "RealSpotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953610652C7083230095B3E8 /* Debug */,
+				953610662C7083230095B3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953610672C7083230095B3E8 /* Build configuration list for PBXNativeTarget "RealSpotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953610682C7083230095B3E8 /* Debug */,
+				953610692C7083230095B3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9536106A2C7083230095B3E8 /* Build configuration list for PBXNativeTarget "RealSpotifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9536106B2C7083230095B3E8 /* Debug */,
+				9536106C2C7083230095B3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9536106D2C7083230095B3E8 /* Build configuration list for PBXNativeTarget "RealSpotifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9536106E2C7083230095B3E8 /* Debug */,
+				9536106F2C7083230095B3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9536104C2C7083230095B3E8 /* RealSpotify.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9536104D2C7083230095B3E8 /* RealSpotify.xcdatamodel */,
+			);
+			currentVersion = 9536104D2C7083230095B3E8 /* RealSpotify.xcdatamodel */;
+			path = RealSpotify.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 953610362C7083220095B3E8 /* Project object */;
+}
