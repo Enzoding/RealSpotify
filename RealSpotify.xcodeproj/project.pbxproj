@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		953610422C7083220095B3E8 /* RealSpotifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953610412C7083220095B3E8 /* RealSpotifyApp.swift */; };
-		953610442C7083220095B3E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953610432C7083220095B3E8 /* ContentView.swift */; };
+		953610442C7083220095B3E8 /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953610432C7083220095B3E8 /* loginView.swift */; };
 		953610462C7083230095B3E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953610452C7083230095B3E8 /* Assets.xcassets */; };
 		953610492C7083230095B3E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953610482C7083230095B3E8 /* Preview Assets.xcassets */; };
 		9536104B2C7083230095B3E8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9536104A2C7083230095B3E8 /* Persistence.swift */; };
@@ -16,6 +16,12 @@
 		953610582C7083230095B3E8 /* RealSpotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953610572C7083230095B3E8 /* RealSpotifyTests.swift */; };
 		953610622C7083230095B3E8 /* RealSpotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953610612C7083230095B3E8 /* RealSpotifyUITests.swift */; };
 		953610642C7083230095B3E8 /* RealSpotifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953610632C7083230095B3E8 /* RealSpotifyUITestsLaunchTests.swift */; };
+		953610712C7083BB0095B3E8 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953610702C7083BB0095B3E8 /* ButtonView.swift */; };
+		953610742C70841E0095B3E8 /* SpotifyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 953610732C70841E0095B3E8 /* SpotifyAPI */; };
+		953610762C70841E0095B3E8 /* SpotifyExampleContent in Frameworks */ = {isa = PBXBuildFile; productRef = 953610752C70841E0095B3E8 /* SpotifyExampleContent */; };
+		9536107B2C7084B50095B3E8 /* BetterSafariView in Frameworks */ = {isa = PBXBuildFile; productRef = 9536107A2C7084B50095B3E8 /* BetterSafariView */; };
+		9563A76E2CCBE88300228457 /* test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9563A76D2CCBE88300228457 /* test2.swift */; };
+		95C8987C2C70E07A003DB227 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 95C8987B2C70E07A003DB227 /* KeychainAccess */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,7 @@
 /* Begin PBXFileReference section */
 		9536103E2C7083220095B3E8 /* RealSpotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealSpotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		953610412C7083220095B3E8 /* RealSpotifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealSpotifyApp.swift; sourceTree = "<group>"; };
-		953610432C7083220095B3E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		953610432C7083220095B3E8 /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
 		953610452C7083230095B3E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		953610482C7083230095B3E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9536104A2C7083230095B3E8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +54,9 @@
 		9536105D2C7083230095B3E8 /* RealSpotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealSpotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		953610612C7083230095B3E8 /* RealSpotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealSpotifyUITests.swift; sourceTree = "<group>"; };
 		953610632C7083230095B3E8 /* RealSpotifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealSpotifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		953610702C7083BB0095B3E8 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		9563A76C2CCBE2C500228457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9563A76D2CCBE88300228457 /* test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +64,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95C8987C2C70E07A003DB227 /* KeychainAccess in Frameworks */,
+				953610762C70841E0095B3E8 /* SpotifyExampleContent in Frameworks */,
+				9536107B2C7084B50095B3E8 /* BetterSafariView in Frameworks */,
+				953610742C70841E0095B3E8 /* SpotifyAPI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +111,15 @@
 		953610402C7083220095B3E8 /* RealSpotify */ = {
 			isa = PBXGroup;
 			children = (
+				9563A76C2CCBE2C500228457 /* Info.plist */,
 				953610412C7083220095B3E8 /* RealSpotifyApp.swift */,
-				953610432C7083220095B3E8 /* ContentView.swift */,
+				953610432C7083220095B3E8 /* loginView.swift */,
+				953610702C7083BB0095B3E8 /* ButtonView.swift */,
 				953610452C7083230095B3E8 /* Assets.xcassets */,
 				9536104A2C7083230095B3E8 /* Persistence.swift */,
 				9536104C2C7083230095B3E8 /* RealSpotify.xcdatamodeld */,
 				953610472C7083230095B3E8 /* Preview Content */,
+				9563A76D2CCBE88300228457 /* test2.swift */,
 			);
 			path = RealSpotify;
 			sourceTree = "<group>";
@@ -149,6 +165,12 @@
 			dependencies = (
 			);
 			name = RealSpotify;
+			packageProductDependencies = (
+				953610732C70841E0095B3E8 /* SpotifyAPI */,
+				953610752C70841E0095B3E8 /* SpotifyExampleContent */,
+				9536107A2C7084B50095B3E8 /* BetterSafariView */,
+				95C8987B2C70E07A003DB227 /* KeychainAccess */,
+			);
 			productName = RealSpotify;
 			productReference = 9536103E2C7083220095B3E8 /* RealSpotify.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +243,11 @@
 				Base,
 			);
 			mainGroup = 953610352C7083220095B3E8;
+			packageReferences = (
+				953610722C70841E0095B3E8 /* XCRemoteSwiftPackageReference "SpotifyAPI" */,
+				953610792C7084B50095B3E8 /* XCRemoteSwiftPackageReference "BetterSafariView" */,
+				95C8987A2C70E07A003DB227 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+			);
 			productRefGroup = 9536103F2C7083220095B3E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -264,9 +291,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9536104B2C7083230095B3E8 /* Persistence.swift in Sources */,
-				953610442C7083220095B3E8 /* ContentView.swift in Sources */,
+				953610442C7083220095B3E8 /* loginView.swift in Sources */,
+				953610712C7083BB0095B3E8 /* ButtonView.swift in Sources */,
 				9536104E2C7083230095B3E8 /* RealSpotify.xcdatamodeld in Sources */,
 				953610422C7083220095B3E8 /* RealSpotifyApp.swift in Sources */,
+				9563A76E2CCBE88300228457 /* test2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +462,7 @@
 				DEVELOPMENT_TEAM = JWA37NF83H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RealSpotify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -462,6 +492,7 @@
 				DEVELOPMENT_TEAM = JWA37NF83H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RealSpotify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -596,6 +627,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		953610722C70841E0095B3E8 /* XCRemoteSwiftPackageReference "SpotifyAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Peter-Schorn/SpotifyAPI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.3;
+			};
+		};
+		953610792C7084B50095B3E8 /* XCRemoteSwiftPackageReference "BetterSafariView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stleamist/BetterSafariView.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		95C8987A2C70E07A003DB227 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		953610732C70841E0095B3E8 /* SpotifyAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 953610722C70841E0095B3E8 /* XCRemoteSwiftPackageReference "SpotifyAPI" */;
+			productName = SpotifyAPI;
+		};
+		953610752C70841E0095B3E8 /* SpotifyExampleContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 953610722C70841E0095B3E8 /* XCRemoteSwiftPackageReference "SpotifyAPI" */;
+			productName = SpotifyExampleContent;
+		};
+		9536107A2C7084B50095B3E8 /* BetterSafariView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 953610792C7084B50095B3E8 /* XCRemoteSwiftPackageReference "BetterSafariView" */;
+			productName = BetterSafariView;
+		};
+		95C8987B2C70E07A003DB227 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95C8987A2C70E07A003DB227 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		9536104C2C7083230095B3E8 /* RealSpotify.xcdatamodeld */ = {
